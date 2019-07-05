@@ -3,8 +3,7 @@ import Header from "../components/header"
 
 export default () => (
     <div>
-        <Header />
-        <h1>Home</h1>
+        <Header headerText="Home" />
         <p>This is the home page.</p>
     </div>
 )
