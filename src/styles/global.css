@@ -15,8 +15,8 @@ h1 {
     font-size: 3em;
 }
 #content{
-    margin:0 auto;
-    width:1200px;
+    margin: 2rem auto;
+    max-width: 1200px;
 }
 nav > ul {
     list-style: none;
