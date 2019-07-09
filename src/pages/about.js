@@ -12,4 +12,4 @@ export default ({ data }) => (
   </Layout>
 )
 
-export const query = graphql`query { site { siteMetadata { title } } }`
+export const query = graphql`{ site { siteMetadata { title } } }`
