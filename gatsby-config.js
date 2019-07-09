@@ -9,6 +9,10 @@ module.exports = {
     title: `Gatsby GraphQL Playground`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `src`, path: `${__dirname}/src/` },
+    },
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
