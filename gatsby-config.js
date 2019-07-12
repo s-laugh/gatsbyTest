@@ -6,9 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: `SA Task Dashboard`,
+    title: `Gatsby GraphQL Playground`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `src`, path: `${__dirname}/src/` },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
